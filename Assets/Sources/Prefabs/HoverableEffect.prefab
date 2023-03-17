@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9629c2fe44978c842865297b059ce119, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _parent: {fileID: 0}
-  _resources: {fileID: 0}
+  _message: {fileID: 2251420598507338610, guid: 86da5ca75c4071745a5ed4c9cbea3d26,
+    type: 3}
   _hitEffectPrefab: {fileID: 449469201287865962, guid: d7175eab6ec1c564db3dce6b848c6eea,
     type: 3}
 --- !u!54 &5584868954368262923

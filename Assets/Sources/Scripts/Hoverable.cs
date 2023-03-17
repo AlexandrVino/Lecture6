@@ -18,8 +18,11 @@ public class Hoverable : MonoBehaviour
 
     public void Hit()
     {
+        //Vector3 screenPosition = Camera.main.WorldToScreenPoint(worldPosition);
+
         HitEffect hitEffect = Instantiate(_hitEffectPrefab, transform.position, Quaternion.identity, _parent);
         hitEffect.Init(_coinsPerClick);
+
         _resources.CollectCoins(1, transform.position);
         Destroy(gameObject);
     }
